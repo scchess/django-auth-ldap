@@ -1,3 +1,14 @@
+v1.2.16 - 2017-09-30 - Minor fixes
+----------------------------------
+
+- Fix `#86`_: Better cache key sanitizing.
+
+- Improved handling of LDAPError. A case existed where the error would not get
+  caught while loading group permissions.
+
+.. _#86: https://bitbucket.org/illocution/django-auth-ldap/issues/86/
+
+
 v1.2.15 - 2017-08-17 - Documentation improvements
 -------------------------------------------------
 
